@@ -1,0 +1,25 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.12)
+
+PROJECT(words)
+MESSAGE(${CMAKE_CURRENT_SOURCE_DIR})
+ADD_EXECUTABLE(${PROJECT_NAME}
+	src/main.cpp
+	src/words.cpp
+
+	include/words.hpp
+)
+
+TARGET_INCLUDE_DIRECTORIES( ${PROJECT_NAME} PUBLIC
+	include
+)
+
+
+
+
+
+
+
+
+
+
+

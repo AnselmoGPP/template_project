@@ -1,0 +1,10 @@
+Reads a list of words from STDIN, one per line, terminated by the word 'end'. 
+Print each individual word in alphabetical order, one per line with their number of occurrences.  
+Repeatedly ask the user to enter a word and look it up in the list of user entries. If found, print its number of occurrences. Otherwise, print an error message. 
+It terminates when it encounters EOF.
+Preserve and improve the multi-threaded nature of the application.
+Make the project more maintainable and easier to work with.
+Reason and explain each change in the CHANGELOG file.
+Create automated build scripts that minimize human interaction.
+Use automated tools to make code formatting and style consistent.
+Add unit tests. Preferably, also integration tests and fuzz tests.

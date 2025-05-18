@@ -1,0 +1,8 @@
+Calculator for simple arithmetic operations (addition, subtraction, multiplication, division...).
+The menu offers operation choices, and then asks for 2 numbers.
+Each entered number and calculated result must be stored in a struct recording: numeric value, parity, and entering order.
+These records are stored in a matrix as `std::vector<NumberInfo>`.
+Upon exiting the program, this matrix is printed to console as a well-formatted table.
+Save matrix to file (.txt or .bin). Read from file and restore previous sessions.
+Allow filtering data: Allow to view only even numbers, odd numbers, or specific results.
+Associate each result with a descriptive string ("2 + 4 = 6").
